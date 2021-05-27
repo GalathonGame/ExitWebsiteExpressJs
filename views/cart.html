@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-xl navbar-light"
+      style="padding: 0 !important"
+    >
+      <a class="navbar-brand" href="index">EXIT.EXE</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Coming soon</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-icon">
+        <a href="cart"><i class="far fa-shopping-bag"></i></a>
+        <a href="#"><i class="far fa-search"></i></a>
+        <div id="menuToggle">
+          <input type="checkbox" id="menu-inp" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="yobro hidden" id="mobile-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Coming soon</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="cart-main">
+      <h1 style="font-weight: 300" class="cart-h1">SHOPPING BAG</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <h2 class="cart-h2">YOUR SELECTIONS</h2>
+
+            <div class="items">
+              <div class="bruh">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="img/shirt.jpg" alt="" class="cart-img" />
+                  </div>
+                  <div class="col-7 cart-detail">
+                    <h3 class="cart-h3-left">This is a shirt</h3>
+                    <p class="cart-p">
+                      This is a description of a shirt. Sorry for my bad Engrisk
+                    </p>
+                    <form action="">
+                      <label for="size" class="cart-label"
+                        >Size
+                        <select name="size" id="size" class="cart-select">
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </select>
+                      </label>
+                      <label for="color" class="cart-label"
+                        >Color
+                        <select name="color" id="color" class="cart-select">
+                          <option value="black">Black</option>
+                          <option value="white">White</option>
+                          <option value="pink">Pink</option>
+                          <option value="gray">Gray</option>
+                        </select>
+                      </label>
+                      <label for="qty" class="cart-label"
+                        >Quantity
+                        <select name="qty" id="qty" class="cart-select">
+                          <option value="one">1</option>
+                          <option value="two">2</option>
+                          <option value="three">3</option>
+                          <option value="four">4</option>
+                          <option value="five">5</option>
+                        </select>
+                      </label>
+                    </form>
+                  </div>
+                  <div class="col-2 cart-price">$ 100</div>
+                </div>
+              </div>
+            </div>
+            <div class="items">
+              <div class="bruh">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="img/shirt.jpg" alt="" class="cart-img" />
+                  </div>
+                  <div class="col-7 cart-detail">
+                    <h3 class="cart-h3-left">This is a shirt</h3>
+                    <p class="cart-p">
+                      This is a description of a shirt. Sorry for my bad Engrisk
+                    </p>
+                    <form action="">
+                      <label for="size" class="cart-label"
+                        >Size
+                        <select name="size" id="size" class="cart-select">
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </select>
+                      </label>
+                      <label for="color" class="cart-label"
+                        >Color
+                        <select name="color" id="color" class="cart-select">
+                          <option value="black">Black</option>
+                          <option value="white">White</option>
+                          <option value="pink">Pink</option>
+                          <option value="gray">Gray</option>
+                        </select>
+                      </label>
+                      <label for="qty" class="cart-label"
+                        >Quantity
+                        <select name="qty" id="qty" class="cart-select">
+                          <option value="one">1</option>
+                          <option value="two">2</option>
+                          <option value="three">3</option>
+                          <option value="four">4</option>
+                          <option value="five">5</option>
+                        </select>
+                      </label>
+                    </form>
+                  </div>
+                  <div class="col-2 cart-price">$ 100</div>
+                </div>
+              </div>
+            </div>
+            <div class="items">
+              <div class="bruh">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="img/shirt.jpg" alt="" class="cart-img" />
+                  </div>
+                  <div class="col-7 cart-detail">
+                    <h3 class="cart-h3-left">This is a shirt</h3>
+                    <p class="cart-p">
+                      This is a description of a shirt. Sorry for my bad Engrisk
+                    </p>
+                    <form action="">
+                      <label for="size" class="cart-label"
+                        >Size
+                        <select name="size" id="size" class="cart-select">
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </select>
+                      </label>
+                      <label for="color" class="cart-label"
+                        >Color
+                        <select name="color" id="color" class="cart-select">
+                          <option value="black">Black</option>
+                          <option value="white">White</option>
+                          <option value="pink">Pink</option>
+                          <option value="gray">Gray</option>
+                        </select>
+                      </label>
+                      <label for="qty" class="cart-label"
+                        >Quantity
+                        <select name="qty" id="qty" class="cart-select">
+                          <option value="one">1</option>
+                          <option value="two">2</option>
+                          <option value="three">3</option>
+                          <option value="four">4</option>
+                          <option value="five">5</option>
+                        </select>
+                      </label>
+                    </form>
+                  </div>
+                  <div class="col-2 cart-price">$ 100</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h2 class="cart-h2">CART SUMMARY</h2>
+            <h3 class="cart-h3-right">
+              Subtotal <span class="cart-total">$300</span>
+            </h3>
+            <h3 class="cart-h3-right">
+              Shipping <span class="cart-total">$25</span>
+            </h3>
+            <h3 class="cart-h3-right total">
+              Total <span class="cart-total">$325</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
